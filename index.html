@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>企业电商平台</title>
+    <link rel="preload" href="build/main.min.css" as="style">
+    <link rel="preload" href="js/main.js" as="script">
+    <link rel="stylesheet" href="build/main.min.css">
+    <!-- 主题色变量定义 -->
+    <style>
+        :root {
+            --primary-color: #ff6b6b;
+            --secondary-color: #4ecdc4;
+            --text-color: #2d3436;
+            --background-color: #ffffff;
+            --card-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部导航 -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">企业电商</div>
+            <ul class="nav-menu">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">商品分类</a></li>
+                <li><a href="#">特惠活动</a></li>
+                <li><a href="#">客户服务</a></li>
+            </ul>
+            <div class="theme-switch">
+                <button id="themeToggle">切换主题</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 轮播图 -->
+    <section class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-item active">
+                <img src="assets/carousel-1.webp" alt="促销活动1" loading="lazy">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/carousel-2.webp" alt="促销活动2" loading="lazy">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/carousel-3.webp" alt="促销活动3" loading="lazy">
+            </div>
+        </div>
+        <button class="carousel-button prev">&lt;</button>
+        <button class="carousel-button next">&gt;</button>
+    </section>
+
+    <!-- 商品卡片区域 -->
+    <main class="products-grid">
+        <!-- 商品卡片将通过JavaScript动态生成 -->
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>关于我们</h3>
+                <p>企业电商平台致力于提供优质的购物体验</p>
+            </div>
+            <div class="footer-section">
+                <h3>客户服务</h3>
+                <ul>
+                    <li><a href="#">购物指南</a></li>
+                    <li><a href="#">配送方式</a></li>
+                    <li><a href="#">售后服务</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>联系我们</h3>
+                <ul>
+                    <li>客服电话：400-123-4567</li>
+                    <li>邮箱：support@example.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 企业电商平台 版权所有</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>

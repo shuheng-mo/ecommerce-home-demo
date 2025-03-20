@@ -1,0 +1,16 @@
+{
+  "name": "e-commerce-demo",
+  "version": "1.0.0",
+  "description": "Picsum: https://picsum.photos/ 1. Download ```bash curl -L https://picsum.photos/400/400 -o assets/product-x.png ``` 2. Convert to .webp ```bash cwebp -q 80 assets/product-x.png -o assets/product-x.webp ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "purgecss": "^7.0.2"
+  }
+}
