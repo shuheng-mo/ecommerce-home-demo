@@ -245,3 +245,18 @@ products.forEach(product => {
 
 ## 部署和验证
 ### Github Pages
+上传到Github并利用Github Pages进行部署。
+访问网站：https://shuheng-mo.github.io/ecommerce-home-demo/
+
+### Lighthouse检测
+- 打开 Chrome DevTools (Command + Option + I)
+- 切换到 Lighthouse 面板
+- 选择要检测的维度（Performance、Accessibility、SEO）
+- 点击"Generate report",就可以获得以下页面报告，根据建议进行优化
+![Alt text](lighthouse_report.png)
+优化完成后，再次运行 Lighthouse 检测，对比优化前后的分数。建议关注以下指标：
+
+- FCP (First Contentful Paint)
+- LCP (Largest Contentful Paint)
+- CLS (Cumulative Layout Shift)
+- TTI (Time to Interactive)
